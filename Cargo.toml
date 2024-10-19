@@ -1,0 +1,9 @@
+[package]
+name = "getRect"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rdev = "0.4"
+term = "1.0.0"
+x11 = "2.18.3"
