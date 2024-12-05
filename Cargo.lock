@@ -30,6 +30,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "colorized"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "739281952453521b532f476b5f8b77c4b16d5ab2a248466c8dc153b3f85d6564"
+
+[[package]]
 name = "core-foundation"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -101,6 +107,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "00b0228411908ca8685dba7fc2cdd70ec9990a6e753e89b6ac91a84c40fbaf4b"
 
 [[package]]
+name = "getRect"
+version = "0.1.0"
+dependencies = [
+ "colorized",
+ "rdev",
+ "term",
+ "x11",
+]
+
+[[package]]
 name = "home"
 version = "0.5.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -169,15 +185,6 @@ checksum = "4df4175de05129f31b80458c6df371a15e7fc3fd367272e6bf938e5c351c7ea0"
 dependencies = [
  "home",
  "windows-sys",
-]
-
-[[package]]
-name = "tmp2"
-version = "0.1.0"
-dependencies = [
- "rdev",
- "term",
- "x11",
 ]
 
 [[package]]
